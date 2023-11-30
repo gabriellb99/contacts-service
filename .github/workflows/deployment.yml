@@ -1,4 +1,4 @@
-name Okteto Deployment
+name: Okteto Deployment
 
 on:
   push:
