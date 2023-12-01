@@ -17,7 +17,7 @@ jobs:
         token: ${{ secrets.OKTETO_TOKEN }}
 
     - name: Okteto Deploy
-    uses: gabriellb99/okteto-push@v1.0.2
-    with:
-      namespace: gabriellb99
-      build: true
+      uses: resinas/okteto-push@v1.0.2
+      with:
+        namespace: gabriellb99
+        build: true
